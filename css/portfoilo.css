@@ -1,0 +1,95 @@
+/* portfoilo section */
+.portfolio{
+    background: var(--bg-gray);
+}
+.portfoilo-content{
+    overflow: hidden;
+}
+
+.portfoilo-item{
+      width: 30%;
+      float: left;
+      margin-bottom: 20px;
+      position: relative;
+      padding: 10px;
+}
+
+.portfoilo-item .layer-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s;
+}
+.portfoilo-item:hover .layer-content{
+    opacity: 1;
+    visibility: visible;
+}
+.layer-content .layer-info{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    text-align: center;
+}
+.portfoilo-item img{
+    width: 100%;
+}
+.layer-info .category{
+    color:var(--maincolor);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.5s ,opacity 0.5s;
+    transition-delay: 0.2s;
+}
+
+.layer-content-title{
+    font-size: 20px;
+    color: var(--wihtecolor);
+    margin-bottom: 10px;
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.5s , opacity 0.5s;;
+    transition-delay: 0.4s;
+
+}
+.layer-content a{
+
+   color: var(--wihtecolor);
+}
+.layer-content a i{
+    display: inline-block;
+    width: 50px;
+    height:50px;
+    line-height: 50px;
+    background-color: var(--maincolor);
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.5s,opacity 0.5s;
+    transition-delay: 0.5s;
+   
+}
+.portfoilo-item:hover .layer-content-title,
+.portfoilo-item:hover .layer-content a i,
+.portfoilo-item:hover .layer-info .category{
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.portfoilo-item.mg{
+    margin: 0 5%;
+}

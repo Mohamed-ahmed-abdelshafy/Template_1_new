@@ -1,0 +1,86 @@
+
+/* conection section */
+.conection{
+    background: var(--bg-gray);
+    }
+    .conection-content{
+        overflow: hidden;
+    }
+    .conection-item{
+        float: left;
+        width: 30%;
+    }
+    .conection-item.mg{
+        margin: 0 5%;
+    }
+    .conection-icons{
+        text-align: center;
+    }
+    .conection-icons i{
+       color: var(--maincolor);
+    }
+    .conection-title{
+        padding: 15px 0;
+        display: block;
+    }
+    .conection-text{
+        color: var(--graycolor);
+        display: block;
+    }
+    .conect{
+    padding-top: 40px;
+    background: #f8f8f8;
+    
+    }
+    .conect-item{
+        overflow: hidden;
+    }
+    .conect .contianer{
+        width: 70%;
+    }
+    .conect-name input{
+        float: left;
+        width: 50%;
+    }
+    .conect-name{
+        padding: 10px 0;
+    }
+    .conect-email{
+        padding: 10px 0;
+    }
+    .conect-item .Maessege input ,textarea{
+        width: 100%;
+    }
+    .conect-item .subject{
+        padding-top: 5px;
+    }
+    .conect .Maessege {
+        padding-top: 15px;
+    }
+    .conect-item .conect-name input{
+        height: 40px;
+        border: 1px solid var(--wihtecolor);
+        background: var(--bg-gray);
+    }
+    .conect-item .Maessege input{
+        height: 40px;
+        border: 1px solid var(--wihtecolor);
+        background: var(--bg-gray);
+    }
+    .conect-item .subject textarea{
+        height: 60px;
+        border: 1px solid var(--wihtecolor);
+        background: var(--bg-gray);
+    }
+    .contect-button{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .contect-button button{
+        background: var(--maincolor);
+        color: var(--wihtecolor);
+        height: 35px;
+        padding: 0 20px;
+        border: 0;
+    }
+    

@@ -1,0 +1,41 @@
+/* testmonail section */
+
+.testmonail{
+    position: relative;
+    background-image: url(../images/background/background3.webp);
+    background-attachment: fixed;
+    height: 400px;
+}
+.testmonail-content{
+    overflow:hidden;
+    padding: 120px 0;
+    width: 85%;
+    margin: auto;
+}
+.testmonail-item{
+    width: 50%;
+    float: left;
+    color:var(--wihtecolor)
+}
+.testmonail-item .testmonail-toplayer{
+    padding: 10px 2px 40px 95px;
+    position: relative;
+}
+.testmonail-item .testmonail-toplayer img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+}
+.testmonail-item .testmonail-toplayer h2{
+    margin-bottom: 5px 0;
+
+}
+.testmonail-item .testmonail-toplayer span{
+    color: var(--maincolor);
+    
+}
+.testmonail-desc{
+    line-height: 1.5;
+    font-size: 17px;
+}
